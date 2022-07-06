@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.infobitTitulo{
+    background-color: dimgrey;
+    width: 100%;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+   
+}
+
+.logo{
+    position: absolute;
+    width: 80px;
+    right: 50px;
+    border-radius: 25px;
+}
+
+.inicio{
+    /* border: solid 2px grey; */
+    /* border-radius: 25px; */
+    /* background-color: black; */
+    padding: 5px;
+    width: 300px;
+}
+
+.contacto{
+    /* border: solid 2px grey; */
+    /* border-radius: 25px; */
+    /* background-color: black; */
+    padding: 5px;
+    width: 150px;
+}
+.galeria{
+    /* border: solid 2px grey; */
+    /* border-radius: 25px; */
+    /* background-color: black; */
+    padding: 5px;
+    width: 300px;
+}
+.trabajos{
+    /* border: solid 2px grey; */
+    /* border-radius: 25px; */
+    /* background-color: black; */
+    padding: 5px;
+    width: 300px;
+}
+.eventos{
+    /* border: solid 2px grey; */
+    /* border-radius: 25px; */
+    background-color: black;
+    padding: 5px;
+    width: 300px;
+}
+.encabezado{
+    background-color: rgba(66, 70, 69, 0.884);
+    display: flex;
+    padding: 10px;
+    /* border-radius: 350px; */
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: wrap
+
+  }
+
+.encabezadoParrafo{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+.encabezado li{
+    list-style: none;
+    padding: 10px;
+}
+
+.encabezado a{
+    color: rgb(202, 224, 224);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.imagen1{
+    /* width: 100vw; */
+}
+.imagen2{
+    /* width: 100vw; */
+}
+
+.encabezado a:hover{
+    /* color: blue; */
+    font-weight: 1000;
+}
+
+.encabezado li:hover{
+    background-color: rgb(97, 104, 104);
+}
+
+body{
+    margin: 0;
+    line-height: 1.5;
+    color: #333;
+    /* overflow-x: hidden; */
+}
+
+.header{
+    height: 100vh;
+    /* display: flex; */
+    align-items: center;
+    color: rgb(80, 77, 77);
+    /* height: 800px;  */
+    
+}
+
+.video01{
+    width: 100%;
+    /* height: aut; */
+}
+
+.main{
+    background-color: rgba(66, 70, 69, 0.884);
+    height: 1500px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+.footer{
+    background-color: darkgrey;
+
+    
+}
+
+
+.galeria1{
+      background-color: darkcyan;
+      border: solid 2px black;
+      font-size: 20px;
+      padding: 5px;
+      
+      
+}
+
+.galeria1{
+    
+    /* grid-template-columns: 1fr 1fr; */
+      /* grid-template-rows: 1fr 1fr ; */
+
+}
+
+
+
+.formulario{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+img{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.columna{
+    flex: 25%;
+    padding: 5px;
+}
+
+.whatsapp{
+    position: fixed;
+    left: 5px;
+    bottom: 5px;
+}
+
+.facebook li{
+    bottom: px;
+    right: 5px;
+    
+}
+
+@media (max-widht 800px){
+    .columna{
+    flex: 50%;
+     }
+}
+
+@media (max-widht 600px){
+    .columna{
+    flex: 100%;
+     }
+}
